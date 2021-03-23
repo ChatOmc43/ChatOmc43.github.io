@@ -1,3 +1,13 @@
-body {
-  font-family: sans-serif
-}
+html {font-family: sans-serif; text-align: center}
+body {display: inline-block; text-align: left; background-color: #00F9E8;}
+label, legend {font-weight: bold}
+*:required, .obligatorio {border: thin solid red; border-width:4px}
+input[type=number], .numero {text-align: right}
+dfn {font-weight: bold}
+br + output, fieldset + output, footer, form em {font-size: small}
+fieldset p {margin: 0}
+fieldset label, label * {font-weight: normal}
+.error {color: red}
+output{color:black; font-size: 25px;}
+header{font-size: 25px;}
+.botones{font-size: 15px;}
